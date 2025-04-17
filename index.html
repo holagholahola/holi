@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amor Desktop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="login-screen">
+    <h2>Ingresa la clave</h2>
+    <input type="password" id="password" placeholder="Clave..." />
+    <p class="hint">Pista: es una fecha importante</p>
+    <button onclick="checkPassword()">Entrar</button>
+    <p id="error-msg"></p>
+  </div>
+
+  <div id="desktop" style="display:none;">
+    <div class="app" onclick="openApp(0)">📷</div>
+    <div class="app" onclick="openApp(1)">💖</div>
+    <div class="app" onclick="openApp(2)">🎮</div>
+    <div class="app" onclick="openApp(3)">🎵</div>
+  </div>
+
+  <div id="app-window" style="display:none;">
+    <div id="app-question"></div>
+    <div id="app-options"></div>
+    <p id="app-feedback"></p>
+    <div id="app-content"></div>
+    <button onclick="closeApp()">Cerrar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

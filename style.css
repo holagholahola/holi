@@ -1,0 +1,37 @@
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: #ffd6f5;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#login-screen, #desktop, #app-window {
+  padding: 30px;
+}
+input, button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+}
+button {
+  background: #ffb6c1;
+  cursor: pointer;
+}
+.app {
+  display: inline-block;
+  margin: 15px;
+  font-size: 40px;
+  cursor: pointer;
+}
+#app-window {
+  background: #fff0f5;
+  border: 2px solid #ff69b4;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 20px;
+}
